@@ -1,6 +1,7 @@
 # 微信历史图片批量转换为jpg，nodejs版本
 
  
+```javascript
 //修改图片//修改图片
 let fs = require("fs");
 let path = require("path");
@@ -91,3 +92,4 @@ function convert(item, cb) {
     }
   });
 }
+```
